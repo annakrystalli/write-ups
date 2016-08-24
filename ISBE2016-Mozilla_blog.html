@@ -129,7 +129,7 @@ $(document).ready(function () {
 <h4><strong>ISBE 2016, University of Exeter, UK</strong></h4>
 <hr />
 <p><br></p>
-<p>When approached to help organise a <a href="https://malikaihle.wordpress.com/openscienceworkshop/">post-conference symposium on reproducibility in Science</a> at the <a href="http://www.isbe2016.com/">International Symposium on Behavioural Ecology</a> E I jumped at the opportunity. The symposium was the brainchild of <a href="https://malikaihle.wordpress.com/">Malika Ihle</a> and <a href="">Isable Winney</a>, both post-docs here at the University of Sheffield at the time, and the idea was to take time to take stock of the state of the field with respect to reproducibility, hear from people praticing new and provide participants with the opportunity to learn some new skills. We managed to also rope in Mike Croucher EPSRC Research Software Engineering Fellow here at Sheffield to help put together some training material.</p>
+<p>When approached to help organise a <a href="https://malikaihle.wordpress.com/openscienceworkshop/">post-conference symposium on reproducibility in science</a> at the <a href="http://www.isbe2016.com/">International Symposium on Behavioural Ecology</a>, I jumped at the opportunity. The symposium was the brainchild of <a href="https://malikaihle.wordpress.com/">Malika Ihle</a> and <a href="">Isable Winney</a>, both post-docs here at the University of Sheffield at the time, and the idea was to take time to take stock of the state of the field with respect to reproducibility, hear from people praticing new and provide participants with the opportunity to learn some new skills. We managed to also rope in Mike Croucher EPSRC Research Software Engineering Fellow here at Sheffield to help put together some training material.</p>
 <p>My own interest in the subject spurs from a deep love of working with data and past experiences outside academia. Working as a quality assurance auditor for a contract research organisation operating to OECD good laboratory practices, I got first hand experience of the opportunity for human error and the lengths required to assure quality of results. In my next job as a brand co-ordinator for an extreme sports equipment distributor, I continued to suffer the consequences of errors in data. In the grand scheme of things, it was of course not the end of the world if the item showing on the system as last in stock and promised to a dealer for next day delivery was in fact out of stock. But it was pretty awkward having to ring them and tell them!</p>
 <p>Don’t get me wrong, I love the creativety afforded in academia. I remember thinking when I first started my phd:</p>
 <blockquote>
@@ -139,9 +139,9 @@ $(document).ready(function () {
 <blockquote>
 <p><em>‘Hmmm, no one’s really checking anything. Bit sketchy…’</em></p>
 </blockquote>
-<p>Since then, I feel lucky to have fallen in love with coding during my PhD in macroecology and have been freelancing since, providing what might be classed as research data engineering.</p>
-<p>So I agreed to prepare a couple of workshops and the tools and skills I have found most usefu.</p>
-<p>First thing to do was secure some funding as my freelance was not cover my time or costs. Luckily <a href="https://science.mozilla.org/">Mozilla Science Lab</a> stepped in to support me and supply great swag.</p>
+<p>I feel lucky to have developed strong coding during my PhD in macroecology and providing what might be classed as research data engineering as a freelancer since. As such, I recognise that the code and data I produce are the main scientific ouputs and have enthusiastically embraced integrating the tools and practices required to curate them.</p>
+<p>So I agreed to prepare a couple of workshops and the tools and skills I have found most useful.</p>
+<p>First thing to do was secure some funding as my freelance was not cover my time or costs. Luckily <a href="https://science.mozilla.org/">Mozilla Science Lab</a> stepped in to support me and also supply some great swag.</p>
 </div>
 <div id="to-the-symposium" class="section level3">
 <h3>…to the symposium</h3>
@@ -157,33 +157,32 @@ Off to exter with <a href="https://twitter.com/annakrystalli"><span class="citat
 </div>
 <div id="roots-of-the-problem" class="section level3">
 <h3><strong>roots of the problem</strong></h3>
-<p>The day kicked off with some much needed self-reflection, through a series of talks on the many and diverse facets of the reproducibility crises.</p>
+<p>The day kicked off with some much needed self-reflection, through a series of talks on the many elements contributing to our current reproducibility woes.</p>
 <p><br></p>
 <div id="self-deception" class="section level4">
-<h4><strong><em>Self-deception</em></strong></h4>
-<p>Shakti Lamba kicked off with tales of deception in our perception of each other’s abilities. discussing their findings in <a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0104562">a paper</a> investigating the role of self-deception evolved to facilitate the deception of others of the first direct evidence suggesting that</p>
+<h4><strong><em>self-deception</em></strong></h4>
+<p>Shakti Lamba (<a href="https://twitter.com/lamba_shakti">@lamba_shakti</a>) kicked off with tales of self-deception. She discussed a recent <a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0104562">paper</a> in which the first direct evidence suggesting that self-deception may have evolved to facilitate the deception of others.</p>
 <blockquote>
 <p><small> Overconfident individuals are overrated by observers and underconfident individuals are judged by observers to be worse than they actually are. Our findings suggest that people may not always reward the more accomplished individual but rather the more self-deceived. Moreover, if overconfident individuals are more likely to be risk-prone then by promoting them we may be creating institutions… more vulnerable to risk.</small></p>
 </blockquote>
+<p>So,</p>
 <blockquote>
 <p>fooling oneself helps fool others.</p>
 </blockquote>
-<p>And if careers are built on convincing others of the value of your work, it becomes apparent how incentives to full yourself become selected for.</p>
+<p>and if careers are built on convincing others of the value of our work, it’s not hard to see how over-condfidence in our own work might become selected for.</p>
 <p><br></p>
 </div>
-<div id="the-trap-of-false-positives" class="section level4">
-<h4><strong><em>the trap of false-positives</em></strong></h4>
-<p>Picking up where Shakti left off, discussing the many ways in which modern scientists have at our disposal to fool ourselves into type I error - false positive results, individually , With statistical significance as the holy grail of publication, practices inflating overall type error are inadvenrtntly encouraged while studies containinig null results are ignored. These include:</p>
+<div id="the-trap-of-false-positives-p-hacking-our-way-to-publication-success" class="section level4">
+<h4><strong><em>the trap of false-positives: (p-)hacking our way to publication success</em></strong></h4>
+<p>Picking up where Shakti left off, Wolfgang Forstmeier discussed the proliferation of a particular kind of self deception: type I errors a.k.a. false positive results. With statistical significance as the holy grail of publication, practices inflating false positives are inadvertantly selected for while studies containing null results have lower rates of publication.</p>
+<p>Practices involve <em>‘torturing the data until it confesses’</em> and can include:</p>
 <ul>
-<li>p-hacking</li>
-<li>HARKing</li>
+<li>p-hacking: post-analysis unreported and unsubstantiated decisions on inclusion/exclusion of data/variables/treatment groups/analyses methods.</li>
+<li>over-fitting models, model fishing, and HARKing (generating hypotheses after results are known)<br />
+</li>
 <li>starting with (or changing to) a less likely hypothesis (since an unlikely hypothesis should be tested with higher power / to a more stringent threshold),</li>
-<li>increasing our number of samples in an attempt to get to a significance threshold,</li>
-<li>using researcher degrees of freedom when selecting how to run an analysis,</li>
-<li>committing data torture with over-fitted models, model fishing, and HARKing (hypothesis after results…),</li>
-<li>having non-independent data.</li>
+<li>non-independent data.</li>
 </ul>
-<p>It seems our overconfidence in ourselves might be leading to an overall underconfidence as a sector as whole.</p>
 <blockquote class="twitter-tweet" data-lang="en">
 <p lang="de" dir="ltr">
 Forstmeier: data torture and researcher df massively inflates type 1 error <a href="https://twitter.com/hashtag/ISBE_Exeter?src=hash">#ISBE_Exeter</a> <a href="https://twitter.com/hashtag/openscience?src=hash">#openscience</a> <a href="https://twitter.com/annakrystalli"><span class="citation">@annakrystalli</span></a> <a href="https://t.co/6gjQssnSFc">pic.twitter.com/6gjQssnSFc</a>
@@ -192,25 +191,28 @@ Forstmeier: data torture and researcher df massively inflates type 1 error <a hr
 </blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 <p><br></p>
+<p>Megan Head delved a bit deeper into the practices and extent of p-hacking, discussing their <a href="">text mining study</a> of the distribution p-values across the literature. Using p-curves they found widespread evidence of introduces additional p-values close to 0.05, producing a left skew. p-hacking to be widespread across many scientific disciples</p>
+<p>In jest we all thanked Megan for the tips and tricks on increasing our chances of a positive result and therefore publication. It reminded me of an <a href="https://www.r-bloggers.com/introducing-the-p-hacker-app-train-your-expert-p-hacking-skills/">R-bloggers post</a> introducing the <a href="http://shinyapps.org/apps/p-hacker/">p-hacker app</a> an app designed to <em>‘help data confess’</em> by allowing users to <em>‘practice creative data analysis and polish their p-values’</em>. While the app is obviously a joke, playing around with it really does hammer home how easy it is to craft a significant result.</p>
 </div>
 <div id="blinded-by-not-blinding" class="section level4">
 <h4><strong><em>blinded by not blinding</em></strong></h4>
-<p>Luke Holman focused on their examination of another common form of self-deception, observer bias. Such reseracher effects…</p>
+<p>Luke Holman focused on their examination of another common form of self-deception, observer bias. Such researcher effects…</p>
 <blockquote>
 <p><small>… are strongest when researchers expect a particular result, are measuring subjective variables, and have an incentive to produce data that confirm predictions.</small></p>
 </blockquote>
-<p>In their study of the extent of working ‘blind’ to guard againt such researcher effects however, they found evidence that blind protocols are uncommon in the life sciences. On top of that, nonblind studies tended to report higher effect sizes and more significant p-values.</p>
+<p>In their study of the extent of ‘working blind’ to guard against such researcher effects however, they found evidence that blind protocols are uncommon in the life sciences. Even more worrying, nonblind studies tended to report higher effect sizes and more significant p-values.</p>
 <p><br></p>
 </div>
 <div id="research-workflow-domino-fail" class="section level4">
 <h4><strong><em>research workflow domino fail</em></strong></h4>
-<p>Finally Mike talked about his view on current research workflows from a software engineering perspective. Explained the reasons we should be increasingly minding the state of our computational workflows. The idea that workflows should be set up like dominos and flow nicely when set into motion. A solid workflow automation setup is far more robust, efficent and transparent.</p>
-<p>Understandably, as a result of often limited formal training in techniques or standards, our workflows look more like this, often getting stuck and needing manual interventions. This inevitably increases opportunity for error or loss of provencance and can often result in not asking our questions properly!</p>
+<p>Finally Mike talked about his view on current research workflows from a software engineering perspective. He explained the reasons we should be increasingly minding the state of our computational workflows which should ideally be set up like dominos and flow nicely from start to finish when set into motion. A solid workflow automation setup is far more robust, efficent and transparent.</p>
+<p>The reality of our workflows however is more like this:</p>
 <div class="figure">
 <img src="http://www.gifbin.com/bin/022013/1361304798_dominoes_launch_fail.gif" alt="" />
 
 </div>
-<p>Highlights the need for increased computational training and support, particularly through an emerging role for RSEs. Ultimately, the mission is to empower researchers with skills to harness rather than be buried by technological advances</p>
+<p>often getting stuck or requiring manual interventions. This inevitably increases opportunity for error or loss of provencance. More worryingly, it can often mean we are not even asking the questions we think we are, a whole other level of self deception!</p>
+<p>To be fair, this is understandably, as a result of often limited formal training in techniques or standards, Highlights the need for increased computational training and support, particularly through an emerging role for RSEs. Ultimately, the mission is to empower researchers with skills to harness rather than be buried by technological advances</p>
 <blockquote>
 <p><strong>PROBLEM: I AM AN IDIOT AND WILL MAKE MISTAKES</strong></p>
 </blockquote>
@@ -224,14 +226,20 @@ Forstmeier: data torture and researcher df massively inflates type 1 error <a hr
 <li>Share your code and data openly</li>
 <li>Write tests</li>
 </ul>
+<p>Both industry as a source of inspiration for standards and open source communities for maintaing diverce emergent computational tools</p>
 <p><br></p>
-<p>The picture is becoming clear that the elements of the reproducibility crisis reflect the fact that a fallable species is practiciing science within a framework of highly risky incentive system:</p>
+</div>
+<div id="a-predictable-predicament" class="section level4">
+<h4><strong><em>A predictable predicament</em></strong></h4>
+<p>It is becoming clear that the elements of the reproducibility crisis are fully predictable given our innate tendencies for bias, and the incentive system we are faced with.<br />
+Importantly:</p>
 <blockquote>
 <p><strong><em>This dynamic requires no conscious strategizing—no deliberate cheating nor loafing—by scientists, only that publication is a principle factor for career advancement.</em></strong> <a href="https://arxiv.org/abs/1605.09511">(Smaldino &amp; McElreath, 2016)</a></p>
 </blockquote>
-<p>These incentives are not lost on the audience with discussions inevitably returning to the costs of reproducibility versus the extrinsinc benefits.</p>
-<p>We blind ourselves because we need to convince others that our work is important to survive. It’s not our fault but we need to start making steps to rectify it. Reproducbility as a means to encourage transparancy, reliability</p>
-<p>collectively it manifest themselves into bad and worrying unreliable science, casting doubt on our paradigs, reducing our confidence. resulting in the reproducibility crisis.</p>
+<p>Collectively it manifest themselves as unreliable science, casting doubt on our paradigms, reducing confidence. resulting in the reproducibility crisis.</p>
+<p>The key to addressing the reproducibility crisis is open and transparent discourse on our research, right from the start. Pre-registration of hypotheses and the analyses proposed to test them can go a long way towards reducing data torture further down the line whilst blinding can help address subjectivity in data collection and decision making. Additionally, transparency and good documentation of ongoing research will allow us to assess results against what researchers really did rather than what they said (or even think!) they did. It is important to note that in discussions, we all recognised the value of exploratory data analysis, so long as they are clearly labelled as such. Importantly, as Forstmeier noted, we need to stop treating statistical significance as a research goal but rather assess work on robustness, transparency and objectivity.</p>
+<p>Buts not easy to move beyond valid considerations of how the cost in terms of time and efforts required by reproducibility will be borne onto the academic. Currently the costs fall too heavily on researchers, with no formal training on any of the required skills. We need help in the form of RSE, of library data managers, of a more diverse evaluation framework for scientic output and a means to reap recognition for contributions to reproducibility.</p>
+<p>we must start taking some responsibility for the state of the field, and begin to demand some standards. However, this should come hand in hand with a spirit of more constructive and open scientific discource. Instead of finger pointing, culture an environment where we collectively eyes on something makes it better,</p>
 <hr />
 </div>
 </div>
@@ -260,20 +268,21 @@ Forstmeier: data torture and researcher df massively inflates type 1 error <a hr
 </div>
 <div id="the-article-is-the-advertising" class="section level4">
 <h4><strong><em>the article is the advertising</em></strong></h4>
-<ul>
-<li>martin really demonstrated the importance of transparency and the importance of the data and code versus the paper. First he doubted himself, but could not find the source of the discrepancy in his analysis. He approached the others who supplied the data and spss code. A single line of code, ommited form the description of the analysis in the paper violated assumptions. When corrected the effect disappeared.</li>
-</ul>
-<p>Made me think of the quote, the paper is the advertisment,</p>
+<p>Martin Bulla described his experiences <a href="http://beheco.oxfordjournals.org/content/26/1/30.full">trying but failing to replicate</a> results in a <a href="http://beheco.oxfordjournals.org/content/14/1/97.abstract?ijkey=51eb245fdbcb84ad42ff1f8f5a7c31e687d6585b&amp;keytype2=tf_ipsecsha">previously published study</a>. First he doubted himself, but hard as he tried, he could not find the source of the discrepancy in his experimental design or analysis. So he asked for the data and code from the original investigators and lo and behold found the bone of contention: A single line of code, ommited form the description of the analysis in the paper violated assumptions. When corrected the effect in the original paper disappeared.</p>
+<p>martin really demonstrated the importance of transparency and the importance of the data and code versus the paper. Made me think of the quote in a paper I read recently that really stuck with me:</p>
 <blockquote>
-<p><small> An article about computational science in a scientific publication is <strong>not</strong> the scholarship itself, it is merely <strong>advertising</strong> of the scholarship. The actual scholarship is the complete software development environment and the complete set of instructions which generated the figures.</small></p>
+<p><small> An article about computational science in a scientific publication is <strong>not</strong> the scholarship itself, it is merely <strong>advertising</strong> of the scholarship. The actual scholarship is the complete software development environment and the complete set of instructions which generated the figures.</small> <a href="https://statistics.stanford.edu/sites/default/files/EFS%20NSF%20474.pdf">Buckheit &amp; Donoho 1995, paraphrasing Jon Claerbout</a></p>
 </blockquote>
-<p>Controversial? Maybe, but I tend to agree.</p>
-<p>It seems science is geared towards curating the advertisement. Now Martin promotes openess again as an intrinsict requirement of confidence.</p>
-<p>Ultimately it allows us to assess claims on what researchers do rather than what they say</p>
+<p>Controversial? Maybe, but I tend to agree. As Martin’s work aptly demonstrated, papers can in future be refuted as more data become available or even errors in analyses uncovered. But the value of well curated data and code, ready to be re-used or re-evaluated still stands. So it does worry me that we seem to spend the majority of our efforts curating the advertisement.</p>
 <p><br></p>
 </div>
 <div id="research-workflow-domino-win" class="section level4">
 <h4><strong><em>research workflow domino win</em></strong></h4>
+<iframe src="//giphy.com/embed/3fQaBsBI6F10A" width="480" height="359" frameBorder="0" class="giphy-embed" allowFullScreen>
+</iframe>
+<p>
+<a href="http://giphy.com/gifs/3fQaBsBI6F10A">via GIPHY</a>
+</p>
 <p>Malika</p>
 <iframe src="http://www.slideshare.net/slideshow/embed_code/key/kPCMGMc04CiNqD" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen>
 </iframe>
@@ -284,17 +293,18 @@ Forstmeier: data torture and researcher df massively inflates type 1 error <a hr
 <blockquote>
 <p><strong>PREPARE IT TO SHARE IT!</strong></p>
 </blockquote>
-<p>The very move to open some code up resulted in significant improvement and refinement of functionality and code and picking up a number of errors. The benefits in terms of increased functionality and efficiency very quickly reveal the intrinsict value of these practices, providing therefore and intrisic incentive. Ulimately, whie I understand arguments about the effort required, they will just never convince me that it’s not worth making the effort. Has been so clearly demonstrated that there’s now going back. If you’re unsure whether they’re worth the effort I just suggest you start super small and just try to implement one thing. I’m sure you’ll be convinced.</p>
+<p>and researchers who have taken the time to invest, appreciate the intrinsict value of the practices for the robustness of their own work. Benefits include:</p>
+<p>The very move to open some code up resulted in significant improvement and refinement of functionality and code and picking up a number of errors. The benefits in terms of increased functionality and efficiency very quickly reveal the intrinsict value of these practices, providing therefore and intrisic incentive. Ulimately, whie I understand arguments about the effort required, they will just never convince me that it’s not worth making the effort. Has been so clearly demonstrated that there’s no going back. If you’re unsure whether they’re worth the effort I just suggest you start super small and just try to implement one thing. I’m sure you’ll be convinced.</p>
 <hr />
 <p><br></p>
 </div>
 </div>
 <div id="hands-on-skills" class="section level2">
 <h2>hand’s on skills</h2>
-<p>While ppropsing these skills as solution to some of the reproducibility values we believe they also help to change the culture, by making it easier for us to share and communicate our work.</p>
-<p>The workshops were there to give attendeeds some skills so that could go off and do something about it. The sessions focused on giving participants skills to version control and collaborative coding through github, literate programming through markdown and of using these skills through Rstudio.</p>
+<p>The afternoon sessions were designed to give attendees a basic starting point from which they could begin to integrate practice into current workflows. The sessions focused on introducing participants to version control and collaborative coding through github, literate programming through markdown and of implementing everything through Rstudio. We focused on these tools not only because they form the core of private reproducibility but because they also allow for culture change towards more open and collaborative research culture powered by the web.</p>
 <div id="github-through-rstudio" class="section level3">
 <h3><strong>Github through RStudio</strong></h3>
+<p>The first session, run by Mike in a code cafe style in which participants work through the material on their own while we were at hand to help with any questions. It aimed to start completely from scratch including all required software installation and by the end, participants had set up their first github repo</p>
 <blockquote class="twitter-tweet" data-lang="en">
 <p lang="en" dir="ltr">
 Heads down and working hard at <a href="https://twitter.com/walkingrandomly"><span class="citation">@walkingrandomly</span></a> RStudio and Git workshop at <a href="https://twitter.com/hashtag/ISBE_Exeter?src=hash">#ISBE_Exeter</a> <a href="https://twitter.com/hashtag/openscience?src=hash">#openscience</a> <a href="https://twitter.com/annakrystalli"><span class="citation">@annakrystalli</span></a> <a href="https://t.co/pjVVvVTmHp">pic.twitter.com/pjVVvVTmHp</a>
@@ -308,13 +318,10 @@ Heads down and working hard at <a href="https://twitter.com/walkingrandomly"><sp
 </div>
 <div id="collaborative-github-through-rstudio" class="section level3">
 <h3>Collaborative github through RStudio</h3>
-<p>In the last practical session of the day, we tackled collaboartive use of github. The task for the session was for participants to fork and clone a repo, create a file where they supplying parameters definining brownian evolution of a trait for their species, commit push and merge to the original repo. Once all species parameters were collated in the original repo, we plotted them all up together!</p>
+<p>In the last practical session of the day, we tackled collaborative use of github. The task for the session was for participants to fork and clone a repository, create a file where they supplying parameters definining brownian evolution of a trait for their species, commit push and merge to the original repo. Once all species parameters were collated in the original repo, we plotted them all up together!</p>
 <iframe width="700" height="400" frameborder="0" scrolling="no" src="https://plot.ly/~akrystalli/392.embed">
 </iframe>
 </div>
-</div>
-<div id="focus-groups" class="section level2">
-<h2>focus groups</h2>
 </div>
 <div id="last-thoughts" class="section level2">
 <h2>last thoughts</h2>
@@ -329,8 +336,7 @@ Thank you <a href="https://twitter.com/IsabelWinney"><span class="citation">@Isa
 — Sajesh Vijayan (<span class="citation">@sajeshksv</span>) <a href="https://twitter.com/sajeshksv/status/760927860089651200">August 3, 2016</a>
 </blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-<p>And I totally agree! I think we totally underestimate what a young generation of scientists, armed with web research skills, set to higher standards from the beginning of their carers will be able to achieve. They will be teaching us!</p>
-<p>As our whole world turns more data driven, these skills are increasing important, so I feel we have a duty to our students to better prepare them and empower their contribution to the workforce while also promoting better analytical and working standards to the economy.</p>
+<p>And I totally agree! I think we totally underestimate what a young generation of scientists, armed with web research skills, set to higher standards from the beginning of their carers will be able to achieve. They will be teaching us next generation web powered science!</p>
 </div>
 </div>
 
