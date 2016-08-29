@@ -146,7 +146,7 @@ While we could not address the external elements of a broken incentive structure
 
 #### ***unblinded by seeing***
 
-Sinichi Nakagawa gave us a demo of the features of the [Open Science Framework (OSF)](https://osf.io/). Created by the Center for Open Science, a non-profit dedicating to supporting researchers in more reproducibility, the OSF is an online portal enabling researchers to centralise and manage project materials throughout project life cycle.
+Shinichi Nakagawa gave us a demo of the features of the [Open Science Framework (OSF)](https://osf.io/). Created by the Center for Open Science, a non-profit dedicating to supporting researchers in more reproducibility, the OSF is an online portal enabling researchers to centralise and manage project materials throughout project life cycle.
 
 <iframe width="450" height="280" src="https://www.youtube.com/embed/2TV21gOzfhw" frameborder="0" allowfullscreen></iframe>
 
@@ -156,7 +156,7 @@ I'd heard of the initiative but admittedly I had not tested it out yet. Inspired
 
 #### ***open data and the non-end of a postgrad's world***
 
-Next up, Caroline Thompson talked about her experience opening up a [long term dataset](https://osf.io/n3jgy/) on blue tits on the OSF, 6 months before the end of here PhD.
+Next up, Caroline Thomson talked about her experience opening up a [long term dataset](https://osf.io/n3jgy/) on blue tits on the OSF, 6 months before the end of here PhD.
 
 <img src="assets/blue-tits.png", width ="450"/>
 
@@ -168,7 +168,7 @@ The most important point of her talk was that, since publication, the dreaded ho
 
 #### ***the article is the advertising***
 
-Martin Bulla described his experiences [trying but failing to replicate](http://beheco.oxfordjournals.org/content/26/1/30.full) results in a [previously published study ](http://beheco.oxfordjournals.org/content/14/1/97.abstract?ijkey=51eb245fdbcb84ad42ff1f8f5a7c31e687d6585b&keytype2=tf_ipsecsha). First he doubted himself, but hard as he tried, he could not find the source of the discrepancy in his experimental design or analysis. So he asked for the data and code from the original investigators and **~~lo and behold~~** found the bone of contention: a single line of code, ommited **from** the description of the analysis in the paper violated assumptions. When corrected the effect in the original paper disappeared.
+Martin Bulla described his experiences [trying but failing to replicate](http://beheco.oxfordjournals.org/content/26/1/30.full) results in a [previously published study ](http://beheco.oxfordjournals.org/content/14/1/97.abstract?ijkey=51eb245fdbcb84ad42ff1f8f5a7c31e687d6585b&keytype2=tf_ipsecsha). First he doubted himself, but hard as he tried, he could not find the source of the discrepancy in his experimental design or analysis. So he asked for the data and code from the original investigators and **~~lo and behold~~** found the bone of contention: a single line of code, ommited **from** the description of the analysis in the paper violated assumptions. When corrected, the effect in the original paper disappeared.
 
 
 **Martin** really demonstrated the importance of transparency and the importance of the data and code versus the paper, **this made** me think of the quote in a paper I read recently that really stuck with me:
