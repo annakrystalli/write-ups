@@ -156,7 +156,7 @@ I'd heard of the initiative but admittedly I had not tested it out yet. Inspired
 
 #### ***open data and the non-end of a postgrad's world***
 
-Next up, Caroline Thompson talked about her experience opening up a [long term dataset](https://osf.io/n3jgy/) on blue tits on the OSF, 6 months before the end of here PhD.
+Next up, Caroline Thomson talked about her experience opening up a [long term dataset](https://osf.io/n3jgy/) on blue tits on the OSF, 6 months before the end of here PhD.
 
 <img src="assets/blue-tits.png", width ="450"/>
 
