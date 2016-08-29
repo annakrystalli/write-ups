@@ -146,7 +146,7 @@ While we could not address the external elements of a broken incentive structure
 
 #### ***unblinded by seeing***
 
-Sinichi Nakagawa gave us a demo of the features of the [Open Science Framework (OSF)](https://osf.io/). Created by the Center for Open Science, a non-profit dedicating to supporting researchers in more reproducibility, the OSF is an online portal enabling researchers to centralise and manage project materials throughout project life cycle.
+Shinichi Nakagawa gave us a demo of the features of the [Open Science Framework (OSF)](https://osf.io/). Created by the Center for Open Science, a non-profit dedicating to supporting researchers in more reproducibility, the OSF is an online portal enabling researchers to centralise and manage project materials throughout project life cycle.
 
 <iframe width="450" height="280" src="https://www.youtube.com/embed/2TV21gOzfhw" frameborder="0" allowfullscreen></iframe>
 
