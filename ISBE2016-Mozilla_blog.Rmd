@@ -7,7 +7,7 @@ output:
 ---
 
 ## Symposium summary: 
-# **'Challenge of our generation: reproducible, transparent and reliable science'.**
+# **'Challenge for our generation: reproducible, transparent and reliable science'.**
 #### **ISBE 2016, University of Exeter, UK**
 
 ***
