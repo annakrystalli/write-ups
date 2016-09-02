@@ -171,7 +171,7 @@ The most important point of her talk was that, since publication, the dreaded ho
 Martin Bulla described his experiences [trying but failing to replicate](http://beheco.oxfordjournals.org/content/26/1/30.full) results in a [previously published study ](http://beheco.oxfordjournals.org/content/14/1/97.abstract?ijkey=51eb245fdbcb84ad42ff1f8f5a7c31e687d6585b&keytype2=tf_ipsecsha). First he doubted himself, but hard as he tried, he could not find the source of the discrepancy in his experimental design or analysis. So he asked for the data and code from the original investigators and, lo and behold, found the bone of contention: a single line of code, omitted from the description of the analysis in the paper violated assumptions. When corrected the effect in the original paper disappeared.
 
 
-Martin clearly demonstrated the importance of transparency and the importance of the data and code versus the paper, and made me think of the quote in a paper I read recently that really stuck with me:
+Martin clearly demonstrated the importance of transparency, of data and code versus the paper and made me think of a quote mentioned in a [lesson](https://www.youtube.com/watch?v=GJBiEOUPFtI) from the [Open Science and Reproducible Research course](https://github.com/cbahlai/OSRR_course) that really stuck with me:
 
 > <small> An article about computational science in a scientific publication is **not** the scholarship itself, it is merely **advertising** of the scholarship. The actual scholarship is the complete software development environment and the complete set of instructions which generated the figures.</small> [Buckheit & Donoho 1995,
 paraphrasing Jon Claerbout](https://statistics.stanford.edu/sites/default/files/EFS%20NSF%20474.pdf)
